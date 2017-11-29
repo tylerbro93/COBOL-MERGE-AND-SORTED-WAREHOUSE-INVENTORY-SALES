@@ -16,8 +16,16 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT UNSORTED-FILE
-               ASSIGN TO "PR4FA17.txt"
+           SELECT UNMERGE-FILE1
+               ASSIGN TO "PR4FA17A.txt"
+               ORGANIZATION IS LINE SEQUENTIAL.
+
+           SELECT UNMERGE-FILE2
+               ASSIGN TO "PR4FA17B.txt"
+               ORGANIZATION IS LINE SEQUENTIAL.
+
+           SELECT MERGE-FILE
+               ASSIGN TO "PR4 MERGED.txt"
                ORGANIZATION IS LINE SEQUENTIAL.
 
            SELECT SORTED-FILE
@@ -34,9 +42,27 @@
 
        FILE SECTION.
 
-       FD UNSORTED-FILE
+       FD UNMERGE-FILE1
        RECORD CONTAINS 126 CHARACTERS.
-       01 UNSORTED-RECORD.
+       01 UNSORTED-RECORD1.
+           05  US-WAREHOUSE-STATE1    PIC A(2).
+           05  FILLER                PIC X(1).
+           05  US-WAREHOUSE-CITY1     PIC X(2).
+           05  FILLER                PIC X(1).
+           05  US-CUSTOMER-ID1        PIC X(2).
+           05  US-CUSTOMER-NAME1      PIC X(20).
+           05  US-CUSTOMER-RATING1    PIC 9(1).
+           05  FILLER               PIC X(1).
+           05  PRODUCT-DATA OCCURS 6 TIMES.
+               10 US-PRODUCT-ID1      PIC X(5).
+               10 US-PRODUCT-CODE1    PIC X(1).
+               10 US-NUMBER-BOXES1    PIC 9(3).
+               10 US-BOX-PRICE1       PIC 999V99.
+               10 US-MOUNTH-BOUGHT1   PIC 99.
+
+       FD UNMERGE-FILE2
+       RECORD CONTAINS 126 CHARACTERS.
+       01 UNSORTED-RECORD2.
            05  US-WAREHOUSE-STATE    PIC A(2).
            05  FILLER                PIC X(1).
            05  US-WAREHOUSE-CITY     PIC X(2).
@@ -118,12 +144,14 @@
            05  PIC X(12) VALUE "BMBirmingham".
            05  PIC X(12) VALUE "HUHuntsville".
            05  PIC X(12) VALUE "MOMobile".
+           05  PIC X(12) VALUE "TUTuscaloosa".
            05  PIC X(12) VALUE "ATAtlanta".
            05  PIC X(12) VALUE "SASavannah".
            05  PIC X(12) VALUE "VAValdosta".
+           05  PIC X(12) VALUE "HEHelena".
 
        01  CITY-TABLE REDEFINES CITY-TEXT.
-           05  CITY-ITEM OCCURS 6 TIMES INDEXED BY CT-INDEX.
+           05  CITY-ITEM OCCURS 8 TIMES INDEXED BY CT-INDEX.
                10  CT-CODE  PIC X(2).
                10  CT-NAME  PIC X(10).
 
@@ -151,9 +179,10 @@
            05 PIC X(11) VALUE "2ACTIVE".
            05 PIC X(11) VALUE "3MODERATE".
            05 PIC X(11) VALUE "4INACTIVE".
+           05 PIC X(11) VALUE "5NEW".
 
        01  ACTIVITY-TABLE REDEFINES ACTIVITY-TEXT.
-           05 ACTIVITY-ITEM OCCURS 4 TIMES INDEXED BY AC-INDEX.
+           05 ACTIVITY-ITEM OCCURS 5 TIMES INDEXED BY AC-INDEX.
                10 AC-CODE PIC X(1).
                10 AC-NAME PIC X(10).
 
@@ -261,7 +290,7 @@
                ON ASCENDING KEY US-WAREHOUSE-STATE
                                 US-WAREHOUSE-CITY
                                 US-CUSTOMER-ID
-               USING UNSORTED-FILE
+               USING MERGE-FILE
                GIVING SORTED-FILE
            .
        125-HOUSEKEEPING.
