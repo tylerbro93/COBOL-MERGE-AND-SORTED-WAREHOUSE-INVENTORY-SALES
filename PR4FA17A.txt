@@ -1,0 +1,14 @@
+AL TU A1John Smith          2 B1000E0100207508G2001C0050500007R3000O0250255009B1002E0150552507G2001C1000500009R3002O0201105010
+AL BM A4Betty Harrison      0 B1000E0150207509G2001C0150500006R3000O0150255009B1002E0150552507G2001C0150500009R3002O0151105010
+AL HU A2Donny Osmond        5                                                                                                 
+AL MO A6Alice Wonderful     3 B1001A0050552507G2002C0051000006                                                                
+AL MO A5Marge Millsap       8 G2002C1501000007R3002O1201105008                                                                
+AL HU C7Peter Parker        1 B1002E0251200008G2001C0050500007R3000O0250255009B1002E0150552507G2001C1000500009R3002O0201105010
+AL BM C2Carl Young          5                                                                                                 
+AL TU B6Bob Marley          1 B1000E0350207509G2001C4150500006R3000O0550255009B1002E0350552507G2001C0250500009R3002O0351105010
+BA AT B2Hiram Sorenson      0                                                                                                 
+AL VA B4Mark Mander         2 B1001E0050552507G2002C0051000006R3001O0150557508B1002Q0150552507                                
+AL HU B3Dave Polowski       5                                                                                                
+AL TT B1Stan Harper         3 G2002X1501000007R3002O1201105008                                                                
+AL BB B7Penny Jensen        4 B1002E0010552507                                                                                
+AL HO D*Donald Dragos       5                                                                                                 
