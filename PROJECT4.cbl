@@ -37,6 +37,9 @@
            SELECT SORT-FILE
                ASSIGN TO PRINTER "SORT.TMP".
 
+           SELECT MERGER
+               ASSIGN TO PRINTER "MERGE.TMP".
+
       ***********************DATA DIVISION******************************
        DATA DIVISION.
 
@@ -115,6 +118,23 @@
                10 S-NUMBER-BOXES    PIC 9(3).
                10 S-BOX-PRICE       PIC 999V99.
                10 S-MOUNTH-BOUGHT   PIC 99.
+
+       FD MERGE-FILE.
+       01 MERGE-RECORD.
+           05  M-WAREHOUSE-STATE    PIC A(2).
+           05  FILLER               PIC X(1).
+           05  M-WAREHOUSE-CITY     PIC X(2).
+           05  FILLER               PIC X(1).
+           05  M-CUSTOMER-ID        PIC X(2).
+           05  M-CUSTOMER-NAME      PIC X(20).
+           05  M-CUSTOMER-RATING    PIC 9(1).
+           05  FILLER               PIC X(1).
+           05  M-PRODUCT-DATA OCCURS 6 TIMES.
+               10 M-PRODUCT-ID      PIC X(5).
+               10 M-PRODUCT-CODE    PIC X(1).
+               10 M-NUMBER-BOXES    PIC 9(3).
+               10 M-BOX-PRICE       PIC 999V99.
+               10 M-MOUNTH-BOUGHT   PIC 99.
 
        WORKING-STORAGE SECTION.
 
@@ -280,12 +300,24 @@
        PROCEDURE DIVISION.
 
        100-MAIN-MODULE.
-           PERFORM 105-SORT-FILE
+
+           PERFORM 105-MERGE-FILE
+           PERFORM 110-SORT-FILE
            PERFORM 125-HOUSEKEEPING
            PERFORM 150-READ-SOURCE-FILE
            PERFORM 250-CLOSE-ROUTINE
            .
-       105-SORT-FILE.
+
+       105-MERGE-FILE.
+           MERGE SORT-FILE
+               ON ASCENDING KEY US-WAREHOUSE-STATE
+                                US-WAREHOUSE-CITY
+                                US-CUSTOMER-ID
+               USING UNMERGE-FILE1, UNMERGE-FILE2
+               GIVING MERGE-FILE
+           .
+
+       110-SORT-FILE.
            SORT SORT-FILE
                ON ASCENDING KEY US-WAREHOUSE-STATE
                                 US-WAREHOUSE-CITY
@@ -293,6 +325,7 @@
                USING MERGE-FILE
                GIVING SORTED-FILE
            .
+
        125-HOUSEKEEPING.
            OPEN INPUT SORTED-FILE
            OUTPUT REPORT-FILE
