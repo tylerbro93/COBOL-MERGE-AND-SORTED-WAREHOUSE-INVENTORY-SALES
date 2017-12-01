@@ -3,9 +3,473 @@
 
                     NEW PRODUCT ANALYSIS         PAGE: 1
 
-        CITY OF            TOTAL:                  $0.00
+STATE: INVALID AA                                       
 
-          STATE OF         TOTAL:                  $0.00
+ CITY: Atlanta                                          
+
+     ID:  C1                                            
+   NAME:  Helen Patton                                  
+ RATING:  NEW                                           
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
 
-                     GRAND TOTAL:                  $0.00
+                           TOTAL:                  $0.00
+
+        CITY OF Atlanta    TOTAL:                  $0.00
+
+          STATE OF INVALID TOTAL:                  $0.00
+
+STATE: ALABAMA                                          
+
+ CITY: INVALID BB                                       
+
+     ID:  B7                                            
+   NAME:  Penny Jensen                                  
+ RATING:  INACTIVE                                      
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1002  EDIBLES   July          1    55.25   $     55.00 
+
+
+                           TOTAL:                 $55.00
+
+        CITY OF INVALID BB TOTAL:                 $55.00
+
+ CITY: Birmingham                                       
+
+     ID:  A4                                            
+   NAME:  Betty Harrison                                
+ RATING:  INVALID 0                                     
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH                                                          
+
+                    NEW PRODUCT ANALYSIS         PAGE: 2
+
+B1000  EDIBLES   September    15    20.75   $    311.00 
+
+G2001  CAPSULES  June         15    50.00   $    750.00 
+
+R3000  OILS      September    15    25.50   $    382.00 
+
+B1002  EDIBLES   July         15    55.25   $    828.00 
+
+G2001  CAPSULES  September    15    50.00   $    750.00 
+
+R3002  OILS      October      15   110.50   $  1,657.00 
+
+
+                           TOTAL:              $4,678.00
+
+     ID:  C2                                            
+   NAME:  Carl Young                                    
+ RATING:  NEW                                           
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+
+                           TOTAL:                  $0.00
+
+        CITY OF Birmingham TOTAL:              $4,678.00
+
+ CITY: INVALID HO                                       
+
+     ID:  D*                                            
+   NAME:  Donald Dragos                                 
+ RATING:  NEW                                           
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+
+                           TOTAL:                  $0.00
+
+        CITY OF INVALID HO TOTAL:                  $0.00
+
+ CITY: Huntsville                                                                                               
+
+                    NEW PRODUCT ANALYSIS         PAGE: 3
+
+     ID:  A2                                            
+   NAME:  Donny Osmond                                  
+ RATING:  NEW                                           
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+
+                           TOTAL:                  $0.00
+
+     ID:  B3                                            
+   NAME:  Dave Polowski                                 
+ RATING:  NEW                                           
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+
+                           TOTAL:                  $0.00
+
+     ID:  C7                                            
+   NAME:  Peter Parker                                  
+ RATING:  AGGRESSIVE                                    
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1002  EDIBLES   August       25   120.00   $  3,000.00 
+
+G2001  CAPSULES  July          5    50.00   $    250.00 
+
+R3000  OILS      September    25    25.50   $    637.00 
+
+B1002  EDIBLES   July         15    55.25   $    828.00 
+
+G2001  CAPSULES  September   100    50.00   $  5,000.00 
+
+R3002  OILS      October      20   110.50   $  2,210.00 
+
+
+                           TOTAL:             $11,925.00
+
+        CITY OF Huntsville TOTAL:             $11,925.00
+
+ CITY: Mobile                                                                                                   
+
+                    NEW PRODUCT ANALYSIS         PAGE: 4
+
+     ID:  A5                                            
+   NAME:  Marge Millsap                                 
+ RATING:  INVALID 8E                                    
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+G2002  CAPSULES  July        150   100.00   $ 15,000.00 
+
+R3002  OILS      August      120   110.50   $ 13,260.00 
+
+
+                           TOTAL:             $28,260.00
+
+     ID:  A6                                            
+   NAME:  Alice Wonderful                               
+ RATING:  MODERATE                                      
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1001  BAD CODE  July          5    55.25   $    276.00 
+
+G2002  CAPSULES  June          5   100.00   $    500.00 
+
+
+                           TOTAL:                $776.00
+
+        CITY OF Mobile     TOTAL:             $29,036.00
+
+ CITY: INVALID TT                                       
+
+     ID:  B1                                            
+   NAME:  Stan Harper                                   
+ RATING:  MODERATE                                      
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+G2002  BAD CODE  July        150   100.00   $ 15,000.00 
+
+R3002  OILS      August      120   110.50   $ 13,260.00                                                         
+
+                    NEW PRODUCT ANALYSIS         PAGE: 5
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+
+                           TOTAL:             $28,260.00
+
+        CITY OF INVALID TT TOTAL:             $28,260.00
+
+ CITY: Tuscaloosa                                       
+
+     ID:  A1                                            
+   NAME:  John Smith                                    
+ RATING:  ACTIVE                                        
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1000  EDIBLES   August       10    20.75   $    207.00 
+
+G2001  CAPSULES  July          5    50.00   $    250.00 
+
+R3000  OILS      September    25    25.50   $    637.00 
+
+B1002  EDIBLES   July         15    55.25   $    828.00 
+
+G2001  CAPSULES  September   100    50.00   $  5,000.00 
+
+R3002  OILS      October      20   110.50   $  2,210.00 
+
+
+                           TOTAL:              $9,132.00
+
+     ID:  B6                                            
+   NAME:  Bob Marley                                    
+ RATING:  AGGRESSIVE                                    
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1000  EDIBLES   September    35    20.75   $    726.00 
+
+G2001  CAPSULES  June        415    50.00   $ 20,750.00 
+
+R3000  OILS      September    55    25.50   $  1,402.00 
+
+B1002  EDIBLES   July         35    55.25   $  1,933.00                                                         
+
+                    NEW PRODUCT ANALYSIS         PAGE: 6
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+G2001  CAPSULES  September    25    50.00   $  1,250.00 
+
+R3002  OILS      October      35   110.50   $  3,867.00 
+
+
+                           TOTAL:             $29,928.00
+
+        CITY OF Tuscaloosa TOTAL:             $39,060.00
+
+ CITY: Valdosta                                         
+
+     ID:  B4                                            
+   NAME:  Mark Mander                                   
+ RATING:  ACTIVE                                        
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1001  EDIBLES   July          5    55.25   $    276.00 
+
+G2002  CAPSULES  June          5   100.00   $    500.00 
+
+R3001  OILS      August       15    55.75   $    836.00 
+
+B1002  BAD CODE  July         15    55.25   $    828.00 
+
+
+                           TOTAL:              $2,440.00
+
+        CITY OF Valdosta   TOTAL:              $2,440.00
+
+          STATE OF ALABAMA TOTAL:            $115,454.00
+
+STATE: INVALID BA                                       
+
+ CITY: Atlanta                                          
+
+     ID:  B2                                            
+   NAME:  Hiram Sorenson                                
+ RATING:  INVALID 0                                     
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+
+                           TOTAL:                  $0.00
+
+        CITY OF Atlanta    TOTAL:                  $0.00
+
+          STATE OF INVALID TOTAL:                  $0.00
+
+STATE: GEORGIA                                                                                                  
+
+                    NEW PRODUCT ANALYSIS         PAGE: 7
+
+ CITY: Atlanta                                          
+
+     ID:  A3                                            
+   NAME:  Fred Flinstone                                
+ RATING:  ACTIVE                                        
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1001  EDIBLES   July          5    55.25   $    276.00 
+
+G2002  CAPSULES  June          5   100.00   $    500.00 
+
+R3001  OILS      August       15    55.75   $    836.00 
+
+B1002  EDIBLES   July         15    55.25   $    828.00 
+
+
+                           TOTAL:              $2,440.00
+
+     ID:  C4                                            
+   NAME:  Bonny Leavitt                                 
+ RATING:  INVALID 0                                     
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1000  EDIBLES   September    15    20.75   $    311.00 
+
+G2001  CAPSULES  June         15    50.00   $    750.00 
+
+R3000  BAD CODE  September    15    25.50   $    382.00 
+
+B1002  EDIBLES   July         15    55.25   $    828.00 
+
+G2001  CAPSULES  September    15    50.00   $    750.00 
+
+R3002  OILS      October      15   110.50   $  1,657.00 
+
+
+                           TOTAL:              $4,678.00
+
+        CITY OF Atlanta    TOTAL:              $7,118.00
+
+ CITY: Helena                                                                                                   
+
+                    NEW PRODUCT ANALYSIS         PAGE: 8
+
+     ID:  B2                                            
+   NAME:  Hiram Sorenson                                
+ RATING:  NEW                                           
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+
+                           TOTAL:                  $0.00
+
+        CITY OF Helena     TOTAL:                  $0.00
+
+ CITY: Savannah                                         
+
+     ID:  B5                                            
+   NAME:  Will Burgess                                  
+ RATING:  AGGRESSIVE                                    
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1000  EDIBLES   September    15    20.75   $    311.00 
+
+G2001  CAPSULES  June         15    50.00   $    750.00 
+
+R3000  OILS      September    15    25.50   $    382.00 
+
+B1002  EDIBLES   July         15    55.25   $    828.00 
+
+G2001  CAPSULES  September    15    50.00   $    750.00 
+
+R3002  OILS      October      15   110.50   $  1,657.00 
+
+
+                           TOTAL:              $4,678.00
+
+     ID:  C3                                            
+   NAME:  Harry Henderson                               
+ RATING:  ACTIVE                                        
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH                                                          
+
+                    NEW PRODUCT ANALYSIS         PAGE: 9
+
+B1000  EDIBLES   August       10    20.75   $    207.00 
+
+G2001  CAPSULES  July          5    50.00   $    250.00 
+
+R3000  OILS      September    25    25.50   $    637.00 
+
+B1002  EDIBLES   July         15    55.25   $    828.00 
+
+G2001  CAPSULES  September   100    50.00   $  5,000.00 
+
+R3002  OILS      October      20   110.50   $  2,210.00 
+
+
+                           TOTAL:              $9,132.00
+
+     ID:  C5                                            
+   NAME:  Ed Drakea                                     
+ RATING:  AGGRESSIVE                                    
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1002  EDIBLES   July         50   120.00   $  6,000.00 
+
+G2000  CAPSULES  July         25    25.50   $    637.00 
+
+R3000  OILS      September   125    25.50   $  3,187.00 
+
+B1002  EDIBLES   July        215    55.25   $ 11,878.00 
+
+G2001  CAPSULES  March       150    50.00   $  7,500.00 
+
+R3002  OILS      August      120   110.50   $ 13,260.00 
+
+
+                           TOTAL:             $42,462.00
+
+        CITY OF Savannah   TOTAL:             $56,272.00
+
+ CITY: Valdosta                                         
+
+     ID:  A7                                            
+   NAME:  Bill Hickory                                  
+ RATING:  AGGRESSIVE                                    
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH                                                          
+
+                    NEW PRODUCT ANALYSIS         PAGE:10
+
+B1002  EDIBLES   July         50   120.00   $  6,000.00 
+
+G2000  CAPSULES  July         25    25.50   $    637.00 
+
+R3000  OILS      September   125    25.50   $  3,187.00 
+
+B1002  EDIBLES   July        215    55.25   $ 11,878.00 
+
+G2001  CAPSULES  March       150    50.00   $  7,500.00 
+
+R3002  OILS      August      120   110.50   $ 13,260.00 
+
+
+                           TOTAL:             $42,462.00
+
+     ID:  C6                                            
+   NAME:  Mary Robinson                                 
+ RATING:  MODERATE                                      
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+B1001  EDIBLES   July          2    55.25   $    110.00 
+
+G2002  CAPSULES  August        1   100.00   $    100.00 
+
+
+                           TOTAL:                $210.00
+
+        CITY OF Valdosta   TOTAL:             $42,672.00
+
+          STATE OF GEORGIA TOTAL:            $106,062.00
+
+
+                     GRAND TOTAL:            $221,516.00

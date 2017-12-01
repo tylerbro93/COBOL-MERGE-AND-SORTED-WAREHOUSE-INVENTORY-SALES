@@ -1,6 +1,6 @@
       ******************************************************************
       * Author: Tyler Brown
-      * Date: 11/29/2017
+      * Date: 11/30/2017
       * Purpose: create a report form file PR3FA17.txt
       * Tectonics: cobc -xo PROJECT4.exe --std=mf  PROJECT4.cbl
       ******************************************************************
@@ -49,13 +49,13 @@
        RECORD CONTAINS 126 CHARACTERS.
        01 UNSORTED-RECORD1.
            05  US-WAREHOUSE-STATE1    PIC A(2).
-           05  FILLER                PIC X(1).
+           05  FILLER                 PIC X(1).
            05  US-WAREHOUSE-CITY1     PIC X(2).
-           05  FILLER                PIC X(1).
+           05  FILLER                 PIC X(1).
            05  US-CUSTOMER-ID1        PIC X(2).
            05  US-CUSTOMER-NAME1      PIC X(20).
            05  US-CUSTOMER-RATING1    PIC 9(1).
-           05  FILLER               PIC X(1).
+           05  FILLER                 PIC X(1).
            05  PRODUCT-DATA OCCURS 6 TIMES.
                10 US-PRODUCT-ID1      PIC X(5).
                10 US-PRODUCT-CODE1    PIC X(1).
@@ -453,6 +453,7 @@
            PERFORM 200-LINE-COUNT-CHECK
            PERFORM 190-CITY-BREAK
            .
+
        190-CITY-BREAK.
            SET CT-INDEX TO 1
            SEARCH CITY-ITEM
@@ -499,6 +500,7 @@
            ADD 8 TO LINE-COUNT
            PERFORM 200-LINE-COUNT-CHECK
            .
+
        200-LINE-COUNT-CHECK.
            DISPLAY LINE-COUNT
            IF LINE-COUNT > 50
@@ -512,6 +514,7 @@
                    WRITE REPORT-RECORD FROM CUSTOMER-HEADING-2
                        AFTER ADVANCING 1
            .
+
        225-PUBLISH-FINAL-TOTALS.
            MOVE WS-CITY-TOTAL TO TL-CITY-SOLD
            MOVE CITY-OUT TO TL-CITY-NAME
@@ -525,6 +528,7 @@
            WRITE REPORT-RECORD FROM GRAND-TOTAL-SOLD-LINE
                AFTER ADVANCING 3
            .
+
        250-CLOSE-ROUTINE.
            CLOSE SORTED-FILE
            CLOSE REPORT-FILE
