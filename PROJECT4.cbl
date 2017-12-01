@@ -146,6 +146,7 @@
            05  SUB                         PIC 9       VALUE ZERO.
 
 
+
        01  REPORT-FIELDS.
            05  PROPER-SPACING              PIC S9      VALUE +1.
            05  LINE-COUNT                  PIC S9(2)   VALUE +0.
@@ -393,8 +394,15 @@
                    ADD 2 TO LINE-COUNT
 
                    PERFORM 200-LINE-COUNT-CHECK
+                   DISPLAY SUB
+               ELSE
+                   IF SUB = 1
+                       MOVE " NONE" TO DL-PRODUCT-ID
+                       WRITE REPORT-RECORD FROM DL-PRODUCT-ID
+                           AFTER ADVANCING PROPER-SPACING
+                       ADD 2 TO LINE-COUNT
 
-
+           END-IF
            END-PERFORM
            MOVE SALES-CUST-TOTAL TO CUSTOMER-TOTAL-OUT
            WRITE REPORT-RECORD FROM TOTAL-CUSTOMER-BREAK-LINE
@@ -502,7 +510,6 @@
            .
 
        200-LINE-COUNT-CHECK.
-           DISPLAY LINE-COUNT
            IF LINE-COUNT > 50
                MOVE SPACES TO REPORT-RECORD
                WRITE REPORT-RECORD

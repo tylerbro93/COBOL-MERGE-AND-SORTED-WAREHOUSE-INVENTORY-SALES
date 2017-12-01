@@ -14,6 +14,8 @@ STATE: INVALID AA
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
    ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
+ NONE                                                   
+
 
                            TOTAL:                  $0.00
 
@@ -72,6 +74,8 @@ R3002  OILS      October      15   110.50   $  1,657.00
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
    ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
+ NONE                                                   
+
 
                            TOTAL:                  $0.00
 
@@ -85,6 +89,8 @@ R3002  OILS      October      15   110.50   $  1,657.00
 
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
    ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+ NONE                                                   
 
 
                            TOTAL:                  $0.00
@@ -102,6 +108,8 @@ R3002  OILS      October      15   110.50   $  1,657.00
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
    ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
+ NONE                                                   
+
 
                            TOTAL:                  $0.00
 
@@ -111,6 +119,8 @@ R3002  OILS      October      15   110.50   $  1,657.00
 
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
    ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+ NONE                                                   
 
 
                            TOTAL:                  $0.00
@@ -130,7 +140,12 @@ R3000  OILS      September    25    25.50   $    637.00
 
 B1002  EDIBLES   July         15    55.25   $    828.00 
 
-G2001  CAPSULES  September   100    50.00   $  5,000.00 
+G2001  CAPSULES  September   100    50.00   $  5,000.00                                                         
+
+                    NEW PRODUCT ANALYSIS         PAGE: 4
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
 R3002  OILS      October      20   110.50   $  2,210.00 
 
@@ -139,9 +154,7 @@ R3002  OILS      October      20   110.50   $  2,210.00
 
         CITY OF Huntsville TOTAL:             $11,925.00
 
- CITY: Mobile                                                                                                   
-
-                    NEW PRODUCT ANALYSIS         PAGE: 4
+ CITY: Mobile                                           
 
      ID:  A5                                            
    NAME:  Marge Millsap                                 
@@ -180,16 +193,13 @@ G2002  CAPSULES  June          5   100.00   $    500.00
  RATING:  MODERATE                                      
 
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
-   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
-
-G2002  BAD CODE  July        150   100.00   $ 15,000.00 
-
-R3002  OILS      August      120   110.50   $ 13,260.00                                                         
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH                                                          
 
                     NEW PRODUCT ANALYSIS         PAGE: 5
 
- P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
-   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+G2002  BAD CODE  July        150   100.00   $ 15,000.00 
+
+R3002  OILS      August      120   110.50   $ 13,260.00 
 
 
                            TOTAL:             $28,260.00
@@ -229,16 +239,16 @@ R3002  OILS      October      20   110.50   $  2,210.00
 
 B1000  EDIBLES   September    35    20.75   $    726.00 
 
-G2001  CAPSULES  June        415    50.00   $ 20,750.00 
-
-R3000  OILS      September    55    25.50   $  1,402.00 
-
-B1002  EDIBLES   July         35    55.25   $  1,933.00                                                         
+G2001  CAPSULES  June        415    50.00   $ 20,750.00                                                         
 
                     NEW PRODUCT ANALYSIS         PAGE: 6
 
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
    ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+R3000  OILS      September    55    25.50   $  1,402.00 
+
+B1002  EDIBLES   July         35    55.25   $  1,933.00 
 
 G2001  CAPSULES  September    25    50.00   $  1,250.00 
 
@@ -282,7 +292,11 @@ STATE: INVALID BA
  RATING:  INVALID 0                                     
 
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
-   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH                                                          
+
+                    NEW PRODUCT ANALYSIS         PAGE: 7
+
+ NONE                                                   
 
 
                            TOTAL:                  $0.00
@@ -291,9 +305,7 @@ STATE: INVALID BA
 
           STATE OF INVALID TOTAL:                  $0.00
 
-STATE: GEORGIA                                                                                                  
-
-                    NEW PRODUCT ANALYSIS         PAGE: 7
+STATE: GEORGIA                                          
 
  CITY: Atlanta                                          
 
@@ -328,7 +340,12 @@ G2001  CAPSULES  June         15    50.00   $    750.00
 
 R3000  BAD CODE  September    15    25.50   $    382.00 
 
-B1002  EDIBLES   July         15    55.25   $    828.00 
+B1002  EDIBLES   July         15    55.25   $    828.00                                                         
+
+                    NEW PRODUCT ANALYSIS         PAGE: 8
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
 G2001  CAPSULES  September    15    50.00   $    750.00 
 
@@ -339,9 +356,7 @@ R3002  OILS      October      15   110.50   $  1,657.00
 
         CITY OF Atlanta    TOTAL:              $7,118.00
 
- CITY: Helena                                                                                                   
-
-                    NEW PRODUCT ANALYSIS         PAGE: 8
+ CITY: Helena                                           
 
      ID:  B2                                            
    NAME:  Hiram Sorenson                                
@@ -349,6 +364,8 @@ R3002  OILS      October      15   110.50   $  1,657.00
 
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
    ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
+
+ NONE                                                   
 
 
                            TOTAL:                  $0.00
@@ -374,7 +391,9 @@ B1002  EDIBLES   July         15    55.25   $    828.00
 
 G2001  CAPSULES  September    15    50.00   $    750.00 
 
-R3002  OILS      October      15   110.50   $  1,657.00 
+R3002  OILS      October      15   110.50   $  1,657.00                                                         
+
+                    NEW PRODUCT ANALYSIS         PAGE: 9
 
 
                            TOTAL:              $4,678.00
@@ -384,9 +403,7 @@ R3002  OILS      October      15   110.50   $  1,657.00
  RATING:  ACTIVE                                        
 
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
-   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH                                                          
-
-                    NEW PRODUCT ANALYSIS         PAGE: 9
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
 B1000  EDIBLES   August       10    20.75   $    207.00 
 
@@ -418,7 +435,12 @@ R3000  OILS      September   125    25.50   $  3,187.00
 
 B1002  EDIBLES   July        215    55.25   $ 11,878.00 
 
-G2001  CAPSULES  March       150    50.00   $  7,500.00 
+G2001  CAPSULES  March       150    50.00   $  7,500.00                                                         
+
+                    NEW PRODUCT ANALYSIS         PAGE:10
+
+ P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
 R3002  OILS      August      120   110.50   $ 13,260.00 
 
@@ -434,9 +456,7 @@ R3002  OILS      August      120   110.50   $ 13,260.00
  RATING:  AGGRESSIVE                                    
 
  P R O D U C T S   MONTH     NUM     BOX     TOTAL SOLD 
-   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH                                                          
-
-                    NEW PRODUCT ANALYSIS         PAGE:10
+   ID     TYPE     BOUGHT    SOLD   PRICE    PER MONTH  
 
 B1002  EDIBLES   July         50   120.00   $  6,000.00 
 
