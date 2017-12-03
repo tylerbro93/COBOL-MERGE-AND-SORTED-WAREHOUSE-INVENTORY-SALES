@@ -1,0 +1,82 @@
+
+                                  DR.CHEB                              
+         11/29/2017       SALES SPECULATION REPORT                  TSB
+
+
+                 PROD           CUSTOMER             QTY         SALES 
+  PRODUCT NAME    ID              NAME              SOLD         VALUE 
+                                                                       
+ Adult Walker    A02   Henry Chiropractic Assoc      005         396.25
+                 A02   Ashral’s Acupuncture          002         158.50
+                 A02   Yari’s Medical Supplies       010         792.50
+
+                                TOTAL:               017  $    1,347.25
+
+
+ Shower Chair    A03   Henry Chiropractic Assoc      006         151.50
+                 A03   Chiropractic Assoc            003          75.75
+
+                                TOTAL:               009  $      227.25
+
+
+ Shower Rail     A04   Kyrianne’s Health Shak        010         227.50
+                 A04   Henry Chiropractic Assoc      005         113.75
+                 A04   Chiropractic Assoc            008         182.00
+                 A04   Yari’s Medical Supplies       003          68.25
+
+                                TOTAL:               026  $      591.50
+
+
+ Bedside Table   A05   Yari’s Medical Supplies       100      11,099.00
+                 A05   Jason’s Healthy Living        150      16,648.50
+                 A05   Martha’s Vitamin’s & More     010       1,109.90
+
+                                TOTAL:               260  $   28,857.40
+
+
+ Allergen Bar    F01   Yari’s Medical Supplies       750       3,750.00
+                 F01   Jason’s Healthy Living        550       2,750.00
+                 F01   Martha’s Vitamin’s & More     210       1,050.00
+
+                                TOTAL:              1510  $    7,550.00
+
+
+ Protein Shake   F04   Jason’s Healthy Living        150       1,477.50
+                 F04   Haven’s Medical Shop          300       2,955.00
+
+                                TOTAL:               450  $    4,432.50
+
+
+ Sugar Substitu  F05   Haven’s Medical Shop          300         750.00
+                 F05   Jason’s Healthy Living        150         375.00
+                 F05   Haven’s Medical Shop          300         750.00
+                 F05   Martha’s Vitamin’s & More     210         525.00
+
+                                TOTAL:               960  $    2,400.00
+
+
+ A 100mg 100Cap  V01   Martha’s Vitamin’s & More     210       2,929.50
+                 V01   Soapy’s Emporium              112       1,562.40
+                 V01   Vitamin’s Galore              100       1,395.00
+
+                                TOTAL:               422  $    5,886.90
+
+
+ B 100mg 250Cap  V02   Martha’s Vitamin’s & More     210       3,525.90
+                 V02   TJ’s Pagan Supplies           225       3,777.75
+                 V02   Soapy’s Emporium              112       1,880.48
+                 V02   Vitamin’s Galore              100       1,679.00
+
+                                TOTAL:               647  $   10,863.13
+
+
+ C 100mg 300Cap  V03   Martha’s Vitamin’s & More     210       2,677.50
+                 V03   TJ’s Pagan Supplies           225       2,868.75
+                 V03   Soapy’s Emporium              112       1,428.00
+
+                                TOTAL:               547  $    6,974.25
+
+
+                              TOTAL AMOUNT SOLD:                  4,848
+
+                           TOTAL VALUE OF SALES:      $       69,130.18

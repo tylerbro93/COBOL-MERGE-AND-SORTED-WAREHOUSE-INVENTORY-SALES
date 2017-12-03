@@ -1,14 +1,20 @@
       ******************************************************************
       * Author: Tyler Brown
       * Date: 11/30/2017
-      * Purpose: create a report form file PR3FA17.txt
+      * Purpose: create a report form file PR3FA17A.txt and PR3FA17B.txt
       * Tectonics: cobc -xo PROJECT4.exe --std=mf  PROJECT4.cbl
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PROJECT4.
       **************************COMMENT SECTION*************************
       *THIS PROGRAM PRODUCES AN SALES REPORT FOR DR. CHEEB WITH ALL
-      *FINAL SALES VALUES AND HOW MANY PRODUCTS HAVE BEEN SOLD
+      *FINAL SALES VALUES AND HOW MANY PRODUCTS HAVE BEEN SOLD. IT USES
+      *THE INPUTS FROM PR3FA17A.TXT AND PR3FA17B.TXT (WHICH CONTAIN
+      *WAREHOUSE DATA BASED ON STATE) AND GENERATES A MERGED FILE WITH
+      *ALL THE DATA FROM THE 2 FILES AND IS CALLED "PR4 MERGED.TXT".
+      *THE DATA IS THE SORTED AND STORED IN FILE "PR4 SORTED.TXT" AND
+      *FINALLY IS USED GENERATE THE REPORT FILE WHICH IS STORED IN
+      *"PROJECT 4 REPORT.TXT".
       ******************************************************************
 
 
